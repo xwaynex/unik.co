@@ -1,0 +1,118 @@
+body {
+	background-color: gray;
+	background-image: url(UNIK-image/unik-co.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+}
+#main {
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 8px 4px 4px grey;
+	margin-top: -7px;
+	margin-bottom: -20px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.container {
+	width: 80%;
+	margin:auto;
+}
+.button {
+	background-color:#333;
+	color:#fff;
+	font-size: 20px;
+	padding:5px 10px;
+	border:none;
+	position:fixed;
+	top: 400px;
+	left: 1px;
+}
+.clr {
+	clear: both;
+}
+.button:hover {
+	background-color: red;
+	color:#fff;
+}
+#navbar {
+	background:#fff;
+	position: relative;
+	bottom: 140px;
+}
+#navbar ul {
+	padding:0;
+	list-style: none;
+}
+#navbar li {
+	display: inline;
+}
+#navbar a {
+	color: #333;
+	font-size: 18px;
+	padding-right: 40px;
+}
+#navbar a:hover {
+	color:red;
+}
+.second {
+	font-variant: small-caps;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	margin-top: -170px;
+}
+a:link {
+	color: skyblue;
+	text-decoration: none;
+}
+a:visited {
+	color: gold;
+}
+.space {
+	margin:
+}
+h2 {
+	border:5px double gold;
+	color: red;
+	font-size: 20px;
+	background-color:white;
+	text-align: center;
+	margin-top: 410px;
+	letter-spacing: 15px;
+	text-shadow: red -2px -3px 0.6em;
+}
+.third {
+	float: left;
+	width:20%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.price {
+	font-size: 16px;
+	font-variant: small-caps;
+	background:white;
+	position:relative;
+	bottom:22px;
+}
+#main-footer {
+	background:black;
+	color:#fff;
+	text-align: center;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 500px;
+}
+#main-footer p {
+	margin:0px;
+}
+@media(max-width: 600px){
+	.third{
+		float:none;
+		width: 100%;
+		margin-top: 0px;
+	}
+}
